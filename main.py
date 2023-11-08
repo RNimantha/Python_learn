@@ -1,19 +1,17 @@
-class MyClass:
-    def __init__(self):
-        print("Object created")
-
-    def method1(self):
-        print("Method 1 executed")
-
-    def method2(self):
-        print("Method 2 executed")
-
+from src.number_service import Numbers, GetNumbers
 
 def main():
-    obj = MyClass()
-    obj.method1()
-    obj.method2()
+    numbers = Numbers()
+    sum = numbers.add_two(3, 4)
+    print(sum)
+
+    multy = numbers.multi_two(23,45)
+    print(multy)
+
+    getnumbers = GetNumbers()
+    num1 = getnumbers.getnum( 12, 34, 2)
 
 
 if __name__ == "__main__":
     main()
+    
