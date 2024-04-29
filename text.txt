@@ -1,1 +1,7 @@
 python -m jupyter notebook  ( before create new notebook)
+
+
+This repo basiclly used for learning the basic of python libraries and basic stuff in python. I will update this repo timely once 
+I've done some basic stuff with python.
+
+
