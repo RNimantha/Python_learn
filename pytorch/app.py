@@ -1,14 +1,13 @@
 # Import the BasicTorch class
 from service.basic import BasicTorch
+from service.network import Net
+from service.passData import PassData
 
 # Define the main function
 def main():
-    # Create an instance of BasicTorch
-    btorch = BasicTorch()
-    # Call the basic method of the BasicTorch instance
-    btorch.basic()
+    data = PassData()
+    output = data.data_pass()
+    print(output)
 
-# Check if this script is being run directly
 if __name__ == "__main__":
-    # Call the main function
     main()
